@@ -15,8 +15,8 @@ Utilizou-se uma estrutura de pastas para organizar a soluação
         - .htaccess
         - index.php 
     - vendor
-    composer.json
-    README.me
+    - composer.json
+    - README.me
 
 Tecnologias utilizadas:
 -----------------------
