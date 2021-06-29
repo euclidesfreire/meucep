@@ -3,7 +3,7 @@ Introdução
 Sistema de busca de endereço com API viacep.api para teste de seletivo.
 
 Utilizou-se uma estrutura de pastas para organizar a soluação
-- teste 
+- meucep
     - app
         - controllers (com a classe Address)
         - views (com a página em HTML)
@@ -39,8 +39,8 @@ Usando composer (recomendado)
 Clone o repositório e manualmente execute o 'composer':
 
     cd (Caminho do Diretório em que desejas clonar)
-    git clone https://github.com/euclidesfreire/fichacatalografica.git
-    cd fichacatalografica
+    git clone https://github.com/euclidesfreire/meucep
+    cd meucep
 
     Caso seja necessário, execute. 
 
