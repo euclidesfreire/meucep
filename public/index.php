@@ -17,12 +17,13 @@ if(!empty($_POST['cep']))
     
     $addressClass = new AddressController();
 
-    $anddress = ($addressClass->get_address($request));
+    $address = ($addressClass->get_address($request));
 
-    echo $address->bairro;
+    $core->setDatas($address);
 
-} else {
-    $core->content('home');
 }
+
+$core->content('home');
+
 
 

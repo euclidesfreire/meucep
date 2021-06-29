@@ -21,6 +21,10 @@
 		        <input type="submit" value="Enviar">
             </form>
         </section>
+<?php
+    if(!empty($this->getDatas())){
+
+?>
 
         <section class="container-dt">
             <section class="dt-left">
@@ -31,28 +35,31 @@
                     <h5 class="text-uppercase text-muted ls-1 mb-1">
                           CEP
                     </h5>
-                    <h2 class="mb-0">65047640</h2>
+                    <h2 class="mb-0"><?php echo $this->getDatas()->cep; ?></h2>
                 </div>
                 <div class="datas">
                     <h5 class="text-uppercase text-muted ls-1 mb-1">
                           Rua
                     </h5>
-                    <h2 class="mb-0">Est da Vitória</h2>
+                    <h2 class="mb-0"><?php echo $this->getDatas()->logradouro; ?></h2>
                 </div>
                 <div class="datas">
                     <h5 class="text-uppercase text-muted ls-1 mb-1">
                           Bairro
                     </h5>
-                    <h2 class="mb-0">Santo Ant.</h2>
+                    <h2 class="mb-0"><?php echo $this->getDatas()->bairro; ?></h2>
                 </div>
                 <div class="datas">
                     <h5 class="text-uppercase text-muted ls-1 mb-1">
                           Estado
                     </h5>
-                    <h2 class="mb-0">MA</h2>
+                    <h2 class="mb-0"><?php echo $this->getDatas()->uf; ?></h2>
                 </div>
             </aside>
         </section>
+<?php
+    }
+?>
     </section>
 </body>
 </html>
