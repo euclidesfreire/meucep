@@ -1,0 +1,109 @@
+* {
+    margin: 0px; 
+    padding: 0px;
+}
+
+html, body {
+    font-family: monospace;
+    background-color: #fff;
+    background: url('/../imgs/wp-map.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100%;
+}
+
+.header-top {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 70px;
+}
+
+.header-top  h1 {
+    color: white;
+    font-size: 22px;
+    padding: 20px 10px 20px 15px;
+}
+
+.container-box {
+    width: 500px;
+    padding: 40px 40px;
+}
+
+.container-box-primary {
+    height: 200px;
+    background-color: blue;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    border-left: 40px solid blue;
+    border-right: 40px solid blue;
+}
+
+.container-box-primary h3{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container-box-secondary {
+    background-color: white;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+}
+
+
+/* Form CEP*/
+.form-cep {
+    background-color:white;
+    border-top: 40px solid white;
+    border-bottom: 40px solid white;
+}
+
+.form-cep input[type=submit] {
+    display: none;
+}
+
+.form-cep input[type=text] {
+    width: 100%;
+    background-color:rgb(226, 226, 226);
+    font-size: 15px;
+    padding: 20px 0px 20px 10px;
+    margin-left: -5px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Datas */
+
+.container-dt {
+    background-color: white;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+}
+
+.container-dt > .dt-left {
+    width: 30%;
+    float: left;
+}
+
+.dt-left > img {
+    width: 50px;
+}
+
+.container-dt > .dt-right {
+    width: 70%;
+    float: right;
+}
+
+.dt-right > .datas {
+    border-bottom: 10px solid white;
+}
+
+.datas > h5 {
+    color: rgb(75, 75, 75);
+}

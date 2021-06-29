@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> MEU CEP </title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body> 
+    <header class="header-top">
+        <h1>MEU CEP</h1>
+    </header>
+    
+    <section class="container-box">
+        <header class="container-box-primary">
+            <h3>Qual endereço você deseja buscar?</h3>
+        </header>
+        
+        <section class="container-box-secondary">
+            <form action="index.php" method="post" class="form-cep">
+		        <input type="text" name="cep" placeholder="Insira o CEP">
+		        <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section class="container-dt">
+            <section class="dt-left">
+                <img src='imgs/icon-address.png' />
+            </section>
+            <aside class="dt-right">
+                <div class="datas">
+                    <h5 class="text-uppercase text-muted ls-1 mb-1">
+                          CEP
+                    </h5>
+                    <h2 class="mb-0">65047640</h2>
+                </div>
+                <div class="datas">
+                    <h5 class="text-uppercase text-muted ls-1 mb-1">
+                          Rua
+                    </h5>
+                    <h2 class="mb-0">Est da Vitória</h2>
+                </div>
+                <div class="datas">
+                    <h5 class="text-uppercase text-muted ls-1 mb-1">
+                          Bairro
+                    </h5>
+                    <h2 class="mb-0">Santo Ant.</h2>
+                </div>
+                <div class="datas">
+                    <h5 class="text-uppercase text-muted ls-1 mb-1">
+                          Estado
+                    </h5>
+                    <h2 class="mb-0">MA</h2>
+                </div>
+            </aside>
+        </section>
+    </section>
+</body>
+</html>
+
