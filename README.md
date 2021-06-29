@@ -5,9 +5,9 @@ Sistema de busca de endereço com API viacep.api para teste de seletivo.
 Utilizou-se uma estrutura de pastas para organizar a soluação
 - teste 
     - app
-        - controllers (com a classe andress)
+        - controllers (com a classe Address)
         - views (como a página em HTML)
-        - core.php (coreção da aplicação)
+        - core.php (coração da aplicação)
     - public
         - assets 
             - css
