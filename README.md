@@ -6,12 +6,12 @@ Utilizou-se uma estrutura de pastas para organizar a soluação
 - teste 
     - app
         - controllers (com a classe Address)
-        - views (como a página em HTML)
+        - views (com a página em HTML)
         - core.php (coração da aplicação)
     - public
         - assets 
-            - css
-        -imgs
+            -   css
+        - imgs
         - .htaccess
         - index.php 
     - vendor
