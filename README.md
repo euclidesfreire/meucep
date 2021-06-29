@@ -2,6 +2,21 @@ Introdução
 ------------
 Sistema de busca de endereço com API viacep.api para teste de seletivo.
 
+Utilizou-se uma estrutura de pastas para organizar a soluação
+- teste 
+    - app
+        - controllers (com a classe andress)
+        - views (como a página em HTML)
+        - core.php (coreção da aplicação)
+    - public
+        - assets 
+            - css
+        -imgs
+        - .htaccess
+        - index.php 
+    - vendor
+    composer.json
+    README.me
 
 Tecnologias utilizadas:
 -----------------------
